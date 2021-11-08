@@ -1,0 +1,50 @@
+.technology__container {    
+    background-color: #D1D9E6;
+    padding: 5%;
+}
+
+
+
+.technology__columns {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    position: relative;
+    margin-left: 5%;
+    
+}
+
+.technology__columns li {
+    width: 50%;
+    padding: 5% 0;
+    list-style: none;
+
+}
+
+.technology__columns li p,
+.technology__container h1 {
+    color: #193566;
+}
+
+.technology__columns li p {
+    text-align: left;
+}
+
+.tech__img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 200px;
+    width: 400px;
+    z-index: 1;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .tech__img {
+        left: 60%;
+        height: 200px;
+        width: 40%;
+    }
+  }

@@ -1,0 +1,42 @@
+.faq__container {
+    background-color: white;
+    height: 500px;
+}
+
+.faq__columns {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+
+.faq__img {
+    position: absolute;
+    top: 5%;
+    bottom: 0;
+    left: 5%;
+    height: 80%;
+    width: 40%; 
+    z-index: 1;
+}
+
+.faq__text {
+    position: absolute;
+    margin: 0;
+    top: 40%;                         
+    transform: translate(0, -40%);   
+
+}
+
+.faq__columns li h1 {
+    color: #193566;
+    margin-left: 5%;
+}
+
+.faq__columns li p {
+    color: #193566;
+    margin-left: 5%;
+}
